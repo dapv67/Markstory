@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markstory</title>
+    <!-- Styles -->
+    <!-- Nuestros styles van al final de todos los css´s, los de bootstrap van antes que todos los css´s -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="imgs/mexico.png" />
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  </head>
+  <body>
+    <!-- Btn flotante -->
+    <a
+      href="https://api.whatsapp.com/send?phone=3411002730&text=Hola!%20Quisiera%20informaci%C3%B3n%20sobre%20sus%20servicios."
+      class="float"
+      target="_blank"
+    >
+      <img
+        class="btn-float"
+        src="./imgs/whatsapp_icon.svg"
+        alt="icon whatsapp"
+      />
+    </a>
+    <!-- Btn flotante -->
+    <a href="#" class="float">
+      <img
+        class="btn-float-up"
+        src="./imgs/up.png"
+        alt="icon up"
+        width="32px"
+      />
+    </a>
+    <main class="slide-1" loading="lazy">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="/imgs/logo-blanco.png" alt="" height="50px" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item selector">
+                  <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <!-- <li class="nav-item selector">
+                  <a class="nav-link" href="#nosotros">Nosotros</a>
+                </li> -->
+                <li class="nav-item selector">
+                  <a class="nav-link" href="#portafolio">Portafolio</a>
+                </li>
+                <li class="nav-item selector">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+            <div class="vacio">
+              <a class="" href="./en/index.html"
+                ><img src="./imgs/eua.png" alt="" style="width: 22px"
+              /></a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Buttons Zone -->
+      <div class="botones">
+        <div class="botones-juntos">
+          <a class="btn btn-main" href="tel:+523411002730">LLAMAR AHORA</a>
+        </div>
+      </div>
+    </main>
+    <section class="services separador" id="servicios">
+      <h1 class="title-services">[... Servicios</h1>
+      <div class="row-services">
+        <div class="service separador">
+          <img src="./imgs/dispositivos.png" alt="" class="img-fluid" />
+          <div class="text-service">
+            <h2 class="title-service">Landing page & ecommerce</h2>
+            <p class="description-service">
+              <strong>Buscas vender online?</strong>
+              ¡Incrementa tus ventas!
+            </p>
+            <a class="btn btn-main" href="tel:+523411002730">SOLICITAR AHORA</a>
+          </div>
+        </div>
+        <div class="service separador">
+          <img src="./imgs/marcas.png" alt="" class="img-fluid" />
+          <div class="text-service">
+            <h2 class="title-service">Software & Apps</h2>
+            <p class="description-service">
+              <strong
+                >Buscas optimizar tus procesos y controlarlos desde donde
+                estes?</strong
+              >
+              ¡Desarrollamos tu proyecto a la medida!
+            </p>
+            <a class="btn btn-main" href="tel:+523411002730">SOLICITAR AHORA</a>
+          </div>
+        </div>
+        <div class="service separador">
+          <img src="./imgs/publicidad.png" alt="" class="img-fluid" />
+          <div class="text-service">
+            <h2 class="title-service">Marketing y publicidad digital</h2>
+            <p class="description-service">
+              <strong> ¡Captamos la atención de tus clientes!</strong>
+              ¡Tu te enfocas en facturar!
+            </p>
+            <a class="btn btn-main" href="tel:+523411002730">SOLICITAR AHORA</a>
+          </div>
+        </div>
+        <div class="service separador">
+          <img src="./imgs/producto.png" alt="" class="img-fluid" />
+          <div class="text-service">
+            <h2 class="title-service">
+              Branding personal, diseño de marca y de producto
+            </h2>
+            <p class="description-service">
+              <strong>Marcas y productos memorables</strong>
+              ¡Nosotros te ayudamos!
+            </p>
+            <a class="btn btn-main" href="tel:+523411002730">SOLICITAR AHORA</a>
+          </div>
+        </div>
+        <div class="service separador">
+          <img src="./imgs/espacio-proensi.png" alt="" class="img-fluid" />
+          <div class="text-service">
+            <h2 class="title-service">
+              Diseño de espacios físicos para negocios
+            </h2>
+            <p class="description-service">
+              <strong>Los detalles cuentan</strong>
+            </p>
+            <a class="btn btn-main" href="tel:+523411002730">SOLICITAR AHORA</a>
+          </div>
+        </div>
+        <div class="service separador">
+          <img src="./imgs/audiovisual.png" alt="" class="img-fluid" />
+          <div class="text-service">
+            <h2 class="title-service">Producción audiovisual</h2>
+            <p class="description-service">
+              <strong>Historias que inspiran</strong> para la eternidad
+            </p>
+            <a class="btn btn-main" href="tel:+523411002730">SOLICITAR AHORA</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="about-us pt-4" id="nosotros">
+      <h1 class="title-services">[... Equipo</h1>
+      <h2 class="text-center">
+        Liderazgo, Creatividad y Resolución de problemas
+      </h2>
+    </section> -->
+    <section class="our-work" id="portafolio">
+      <h1 class="title-services">[... Portafolio</h1>
+      <div class="row">
+        <div class="col-md img-work work-1" loading="lazy">
+          <h2 class="work">Branding</h2>
+        </div>
+        <div class="col-md img-work work-2" loading="lazy">
+          <h2 class="work">Web design</h2>
+        </div>
+        <div class="col-md img-work work-3" loading="lazy">
+          <h2 class="work">Branding</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md img-work work-4" loading="lazy">
+          <h2 class="work">Space design</h2>
+        </div>
+        <div class="col-md img-work work-5" loading="lazy">
+          <h2 class="work">Branding</h2>
+        </div>
+        <div class="col-md img-work work-6" loading="lazy">
+          <h2 class="work">Product design</h2>
+        </div>
+      </div>
+      <div class="mt-4 ms-2">
+        <a href="#" style="color: white">Ver más...</a>
+      </div>
+    </section>
+    <!-- Form Zone -->
+    <section class="content-contact separador" id="contacto">
+      <h1 class="title-services" style="color: rgb(58, 56, 56)">
+        [... Contacto
+      </h1>
+      <div class="form-contact">
+        <div class="contact-uno">
+          <h2>Información de contacto</h2>
+          <p class="phone">
+            <a href="tel:+523411002730">341 100 27 30</a>
+          </p>
+          <p class="email">
+            <a
+              href="mailto:contacto@proensi.com?Subject=Interesado%20en%20sus%20productos%20y%20servicios"
+              >hello@markstory.com.mx</a
+            >
+          </p>
+          <a class="btn btn-outline" href="tel:+523331880110">LLAMAR AHORA</a>
+          <div class="social-network">
+            <a href="https://www.facebook.com/AgenciaMarkstory" target="_blank">
+              <img
+                class="logo-iso"
+                src="./imgs/facebook.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+              />
+            </a>
+            <a href="https://www.instagram.com/markstory.mx/" target="_blank"
+              ><img
+                class="logo-iso"
+                src="./imgs/instagram.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+            /></a>
+            <a href="#" target="_blank"
+              ><img
+                class="logo-iso"
+                src="./imgs/twitter.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+            /></a>
+            <a href="#" target="_blank"
+              ><img
+                class="logo-iso"
+                src="./imgs/youtube.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+            /></a>
+            <a href="#" target="_blank"
+              ><img
+                class="logo-iso"
+                src="./imgs/linkedin.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+            /></a>
+          </div>
+        </div>
+        <div class="contact-dos">
+          <form id="form">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputNombre"
+                name="name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                placeholder="name@example.com"
+                name="mail"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Descripción de tu proyecto</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                name="message"
+              ></textarea>
+              <div id="emailHelp" class="form-text">
+                Proporciona detalles de tu proyecto y en minutos te atenderemos
+                :)
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <a href="mailto:alvarodperezv@gmail.com" id="enviar"></a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="logos-footer">
+        <a href="index.html"
+          ><img
+            class="logo"
+            src="./imgs/logo-blanco.png"
+            alt="Logo"
+            width="200px"
+        /></a>
+      </div>
+      <div class="content-footer">
+        <div class="item-content-footer">
+          <p class="subtitle">Oficinas comerciales Jalisco, México</p>
+          <p>
+            <img
+              src="./imgs/location-icon.png"
+              alt="location"
+              class="me-2"
+              width="17px"
+              height="23px"
+            />Av. Enrique Arreola Silva No. 883, Colón, Cd Guzmán Centro, 49000
+            Cd Guzman, Jal.
+          </p>
+
+          <p class="hiperlinks">
+            <a href="tel:+523411002730"
+              ><img src="./imgs/ic_phone.png" alt="tel" class="me-1" />341 100
+              27 30</a
+            >
+          </p>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3755.7070836276057!2d-103.46293613511685!3d19.725091136718863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAv.%20Enrique%20Arreola%20Silva%20No.%20883%2C%20Col%C3%B3n%2C%20Cd%20Guzm%C3%A1n%20Centro%2C%2049000%20Cd%20Guzman%2C%20Jal.!5e0!3m2!1sen!2smx!4v1645887061494!5m2!1sen!2smx"
+            width="100%"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="item-content-footer">
+          <p class="subtitle">Oficinas comerciales Illinois, EE.UU.</p>
+          <p>
+            <img
+              src="./imgs/location-icon.png"
+              alt="location"
+              class="me-2"
+              width="17px"
+              height="23px"
+            />526 Main St, West Chicago, IL 60185
+          </p>
+
+          <p class="hiperlinks">
+            <a href="tel:+16305200151"
+              ><img src="./imgs/ic_phone.png" alt="tel" class="me-1" />(630)
+              520-0151</a
+            >
+          </p>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.5227430235004!2d-88.19897248458103!3d41.88161367922188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880effb9ef5a3c91%3A0xd834e91fdaddb7cf!2s526%20Main%20St%2C%20West%20Chicago%2C%20IL%2060185%2C%20USA!5e0!3m2!1sen!2smx!4v1643418945985!5m2!1sen!2smx"
+            width="100%"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="item-content-footer">
+          <p class="subtitle">Contacto</p>
+          <p class="hiperlinks">
+            <a
+              href="mailto:hello@markstory.com.mx?Subject=Interesado%20en%20sus%20servicios"
+              ><img
+                src="./imgs/ic_email.png"
+                alt="email"
+                width="20px"
+                height="16px"
+                class="me-2"
+              />hello@markstory.com.mx</a
+            >
+          </p>
+          <p class="hiperlinks">
+            <a href="tel:+523411002730"
+              ><img src="./imgs/ic_phone.png" alt="tel" class="me-1" />341 100
+              27 30</a
+            >
+          </p>
+        </div>
+
+        <div class="item-content-footer">
+          <p class="subtitle">Síguenos!</p>
+          <div class="redes-sociales">
+            <a href="https://www.facebook.com/AgenciaMarkstory" target="_blank">
+              <img
+                class="logo-iso"
+                src="./imgs/facebook.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+              />
+            </a>
+            <a href="https://www.instagram.com/markstory.mx/" target="_blank"
+              ><img
+                class="logo-iso"
+                src="./imgs/instagram.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+            /></a>
+            <a href="#" target="_blank"
+              ><img
+                class="logo-iso"
+                src="./imgs/twitter.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+            /></a>
+            <a href="#" target="_blank"
+              ><img
+                class="logo-iso"
+                src="./imgs/youtube.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+            /></a>
+            <a href="#" target="_blank"
+              ><img
+                class="logo-iso"
+                src="./imgs/linkedin.png"
+                alt="Logo"
+                width="32px"
+                height="32px"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="links-footer">
+        <a href="#">Markstory 2022 © Todos los derechos reservados.</a>
+        <a href="#">Términos y condiciones.</a>
+      </div>
+    </footer>
+
+    <!-- Scripts antes de la etiqueta body -->
+    <!-- Nuestro js personalizado va hasta la parte final de todos los js´s, los de bootstrap van antes que todos los js´s -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
