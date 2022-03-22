@@ -1,2 +1,2 @@
 # Markstory
-Marketing and technology development agency
+Technology development and marketing agency website
