@@ -29,7 +29,7 @@ a {
 }
 /* MOBILE VERSION */
 /* -------------------------------- MAIN SECTION ------------------------------------ */
-main {
+.main {
   background-image: url("./imgs/BANNER\ MARKSTORY.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,14 +146,23 @@ header {
   color: white;
 }
 .img-work {
+  position: relative;
   height: 21rem;
   max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.7;
   overflow: hidden;
   transition: all 500ms ease;
+}
+.img-work::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .img-work:hover {
   font-weight: 700;
@@ -267,9 +276,9 @@ footer {
 
 /* DESKTOP VERSION */
 @media only screen and (min-width: 1024px) {
-  main {
+  /* .main {
     background-image: url("./imgs/banner-marte.png");
-  }
+  } */
   .separador {
     padding: 5rem 7rem;
   }
@@ -360,6 +369,9 @@ footer {
   }
   .img-work {
     height: 20rem;
+  }
+  .work {
+    position: relative;
   }
   /* content-contact */
   .content-contact {
