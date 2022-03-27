@@ -276,9 +276,9 @@ footer {
 
 /* DESKTOP VERSION */
 @media only screen and (min-width: 1024px) {
-  /* .main {
+  .main {
     background-image: url("./imgs/banner-marte.png");
-  } */
+  }
   .separador {
     padding: 5rem 7rem;
   }
