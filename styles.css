@@ -29,7 +29,7 @@ a {
 }
 /* MOBILE VERSION */
 /* -------------------------------- MAIN SECTION ------------------------------------ */
-.main {
+/* .main {
   background-image: url("./imgs/movil-markstory.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,8 +37,38 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+} */
+.main {
+  background: linear-gradient(
+    -45deg,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
 /* Header-Menu */
 header {
   height: auto;
@@ -87,9 +117,34 @@ header {
   border-radius: 28px;
   cursor: pointer;
 }
-.btn-main {
+/* .btn-main {
   background-color: #0d6efd;
   color: white;
+} */
+.btn-main {
+  background: radial-gradient(
+    circle,
+    #f48fb1 0%,
+    #ce93d8 20%,
+    #b2ebf2 40%,
+    #a5d6a7 60%,
+    #b39ddb 100%
+  );
+  font-size: 1rem;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  animation: gradient 10s linear infinite alternate;
+  font-family: Open Sans, sans-serif;
+  font-weight: 100;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
 }
 .btn-white {
   background-color: rgba(33, 33, 33, 0.7);
@@ -276,9 +331,9 @@ footer {
 
 /* DESKTOP VERSION */
 @media only screen and (min-width: 1024px) {
-  .main {
+  /* .main {
     background-image: url("./imgs/banner-marte.png");
-  }
+  } */
   .separador {
     padding: 5rem 7rem;
   }
